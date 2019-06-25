@@ -1,1 +1,39 @@
-{\rtf1}
+body {
+    background-color: #DCDCDC;
+}
+
+/* Profile Picture */
+.profilepic {
+    float: left;
+    width: 15%;
+    margin: 10px;
+}
+
+/* Header & Nav Bar */
+header {
+    text-align: left;
+    margin-left: 250px;
+}
+}
+h1 {
+    text-align: center;
+}
+.me {
+    text-align: left;
+}
+li {
+    display: inline;
+}
+ul {
+    text-align: right;
+    width: 100%;
+    margin-right: 200px;
+}
+.nav {
+    text-align: right;
+    margin-right: 250px;
+  }
+
+.bio {
+    margin-left: 250;
+}
