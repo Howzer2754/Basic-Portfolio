@@ -8,9 +8,6 @@ body {
 .bio {
     background-color: blanchedalmond;
 }
-.wrapper {
-    flex: 1 0 auto;
-}
 
 /* Profile Picture */
 .profilepic {
@@ -21,13 +18,21 @@ body {
 
 /* Header & Nav Bar */
 header {
+    display: flex;
+    align-items: left;
     text-align: center;
-    background-color: aquamarine;
+    flex-direction: row;
     margin: 0;
 }
+nav {
+    margin-right: 0;
+    align-items: right;
 }
-h1 {
+.name  {
     text-align: center;
+    background-color: #7FFFD4;
+    border: 1px solid #D3D3D3;
+    padding: 20px;
 }
 .me {
     text-align: left;
@@ -41,8 +46,8 @@ ul {
     margin-right: 200px;
 }
 .nav {
-    text-align: right;
-    margin-right: 250px;
+    width: 700px;
+    margin: auto;
   }
 
   small {
@@ -54,4 +59,8 @@ footer {
     background-color: rgb(114, 111, 111);
     color: white;
     text-align: center;
+}
+.bio {
+    border: 1px solid #D3D3D3;
+    background-color: white;
 }
