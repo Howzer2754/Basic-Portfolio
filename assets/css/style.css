@@ -1,3 +1,9 @@
+/*RESET - removes spaces*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #DCDCDC;
     display: flex;
@@ -45,9 +51,10 @@ ul {
     width: 100%;
     margin-right: 200px;
 }
-.nav {
+nav {
     width: 700px;
     margin: auto;
+    right: 20px;
   }
 
   small {
@@ -55,12 +62,18 @@ ul {
   }
 
 footer {
-    flex-shrink: 0;
-    background-color: rgb(114, 111, 111);
-    color: white;
-    text-align: center;
+background-color: #000;
 }
 .bio {
     border: 1px solid #D3D3D3;
     background-color: white;
+    height: 75vh;
+}
+
+.footNav a {
+    color: rgb(250, 245, 245);
+}
+.footNav {
+    float: right;
+    left: 5%;
 }
