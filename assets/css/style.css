@@ -1,5 +1,15 @@
 body {
     background-color: #DCDCDC;
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    margin-left: 25%;
+}
+.bio {
+    background-color: blanchedalmond;
+}
+.wrapper {
+    flex: 1 0 auto;
 }
 
 /* Profile Picture */
@@ -11,8 +21,9 @@ body {
 
 /* Header & Nav Bar */
 header {
-    text-align: left;
-    margin-left: 250px;
+    text-align: center;
+    background-color: aquamarine;
+    margin: 0;
 }
 }
 h1 {
@@ -34,6 +45,13 @@ ul {
     margin-right: 250px;
   }
 
-.bio {
-    margin-left: 250;
+  small {
+      text-align: center;
+  }
+
+footer {
+    flex-shrink: 0;
+    background-color: rgb(114, 111, 111);
+    color: white;
+    text-align: center;
 }
