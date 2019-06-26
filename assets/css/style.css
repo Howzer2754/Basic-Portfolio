@@ -26,6 +26,7 @@ body {
     float: left;
     width: 15%;
     margin: 10px;
+    border-radius: 50%;
 }
 
 /* Header & Nav Bar */
