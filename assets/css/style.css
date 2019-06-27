@@ -171,9 +171,10 @@ input[type=text], select, textarea {
 
   /* PORTFOLIO */
   .portfolio {
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: left;
     background-color: blanchedalmond;
     height: 100vh;
@@ -181,12 +182,13 @@ input[type=text], select, textarea {
 
 .portimg {
     position: relative;
-    margin: 2.2px;
+    flex-grow: 1;
+    padding-left: 3.5%;
 }
 
 .portdcrp {
     position: absolute;
-    bottom: 250px;
+    bottom: 185%;
     width: 259px;
     text-align: center;
     background-color: #515254;
