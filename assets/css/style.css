@@ -13,9 +13,13 @@
 }
 body {
     background-color: #DCDCDC;
+    background
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 0;
+    display: flex;
+     
+    }
 }
 .bio {
     background-color: blanchedalmond;
@@ -172,6 +176,7 @@ input[type=text], select, textarea {
     flex-wrap: wrap;
     justify-content: left;
     background-color: blanchedalmond;
+    height: 100vh;
 }
 
 .portimg {
@@ -181,13 +186,18 @@ input[type=text], select, textarea {
 
 .portdcrp {
     position: absolute;
-    bottom: 20px;
-    width: 260px;
+    bottom: 250px;
+    width: 259px;
     text-align: center;
     background-color: #515254;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.port-description {
+  width: 299px;
+  padding-top: 10%;
 }
 
 /* TYPOGRAPHY */
