@@ -178,6 +178,7 @@ input[type=text], select, textarea {
     justify-content: left;
     background-color: blanchedalmond;
     height: 100vh;
+    padding-top: 5%;
 }
 
 .portimg {
@@ -186,17 +187,29 @@ input[type=text], select, textarea {
     padding-left: 3.5%;
 }
 
-.portdcrp {
+.portdcrp1 {
     position: absolute;
-    bottom: 185%;
+    bottom: 56%;
     width: 259px;
     text-align: center;
     background-color: #515254;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
+    float: inherit;
 }
 
+.portdcrp2 {
+  position: absolute;
+  bottom: 56%;
+  width: 259px;
+  text-align: center;
+  background-color: #515254;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: inherit;
+}
 .port-description {
   width: 299px;
   padding-top: 10%;
