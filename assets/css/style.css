@@ -55,6 +55,7 @@ h1 {
 }
 .me {
     text-align: left;
+    padding: 2%;
 }
 li a {
     display: inline;
@@ -175,7 +176,7 @@ input[type=text], select, textarea {
 
 .portimg {
     position: relative;
-    margin: 20px;
+    margin: 2.2px;
 }
 
 .portdcrp {
@@ -187,4 +188,18 @@ input[type=text], select, textarea {
     color: white;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+/* TYPOGRAPHY */
+.name {
+  text-transform: uppercase;
+  font-family: 'Poppins', serif;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+
+.bio {
+  font-size: 20px;
+  word-spacing: 3px;
+  line-height: 30px;
 }
