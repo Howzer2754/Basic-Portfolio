@@ -20,7 +20,7 @@ body {
     display: flex;
 }
 .bio {
-    background-color: blanchedalmond;
+    background-image: linear-gradient(to right, #e8e7e1, #bec3e6);
     padding: 5%;
 }
 .para {
@@ -48,12 +48,14 @@ header {
 
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
+
 }
 
 .name  {
     align-items: flex-start;
     padding: 20px;
     color: #fff;
+
 }
 .me {
     text-align: left;
@@ -150,7 +152,7 @@ input[type=text], select, textarea {
   
   .form {
     /* border-radius: 5px; */
-    background-color: blanchedalmond;
+    background-image: linear-gradient(to right, #e8e7e1, #bec3e6);
     padding: 20px;
     width: 100%;
     height: 170vh;
@@ -190,7 +192,7 @@ input[type=text], select, textarea {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: left;
-    background-color: blanchedalmond;
+    background-image: linear-gradient(to right, #e8e7e1, #bec3e6);
     height: 250vh;
     padding-top: 5%;
 }
