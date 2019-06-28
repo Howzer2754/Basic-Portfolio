@@ -171,6 +171,16 @@ input[type=text], select, textarea {
       padding: 2%;
       justify-content: center;
       display: block;
+      margin: auto;
+      padding-bottom: 0;
+  }
+
+  #gmap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    position: inherit;
   }
 
   /* PORTFOLIO */
